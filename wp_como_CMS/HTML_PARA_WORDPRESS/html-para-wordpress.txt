@@ -57,6 +57,9 @@ Adicionar o Loop as páginas e ao index.php
 
 12 - Advanced Custom Fields
 
-Adicionar o Plugin Advanced Custom Fields
+Adicionar o Plugin Advanced Custom Fields Pro
+(Nota: O Pro é pago e só pode ser utilizado nos arquivos do curso).
+(Existem alternativas, mas a lógica é a mesma)
+
 Iniciar a troca do conteúdo por fields, <?php the_field('nome_conteudo'); ?>
 Adicionar o conteúdo a interface do Custom Fields.
