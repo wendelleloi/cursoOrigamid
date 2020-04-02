@@ -63,3 +63,18 @@ Adicionar o Plugin Advanced Custom Fields Pro
 
 Iniciar a troca do conteúdo por fields, <?php the_field('nome_conteudo'); ?>
 Adicionar o conteúdo a interface do Custom Fields.
+
+13 - Repeater Field
+
+<?php if(have_rows('nomedorepeater')): while(have_rows('nomedorepeater')) : the_row(); ?>
+	
+	the_sub_field('nomedocampo');
+
+<?php endwhile; else : endif; ?>
+
+14 - Pegar valores de outras páginas
+
+<?php
+$contato = get_page_by_title('contato');
+the_field('telefone', $contato)
+?>
